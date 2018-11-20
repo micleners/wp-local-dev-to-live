@@ -26,4 +26,11 @@ Not certain what I'm referring to? Let's explore first:
 3. Click on the `ADMIN` button -OR- click on `VIEW SITE` and then type `/wp-admin` behind your `*.local` URL
 4. Log in to your WP admin dashboard with the credentials you used when creating your site
 5. On the left hand menu, you'll see a section called `Appearance`, hover over this and click on `Themes`
-6. You'll see several themes here, your current one says `Active` and
+6. You'll see several themes here, your current one says `Active`
+
+So, now you've seen where your themes live in the WP files and in the WP Admin, let's manually add another theme:
+1. If you have a theme you like, download it now, or go to [Antreas](https://www.demos.machothemes.com/antreas/) or [download the theme here](/antreas-lite.zip)
+2. Unzip the theme contents, and copy the whole folder into your theme directory
+3. Go to your WP Admin theme page and click refresh
+
+If you navigate to your website, you'll notice that the theme has now changed. To show how quick and powerful WwordPress can be, go ahead and click W
