@@ -20,22 +20,38 @@ Within the `public` folder there will be `wp-admin`, `wp-includes`, and `wp-cont
 
 In the `wp-content` folder you'll find the `themes` folder. This contains all the themes that you'll find on the themes tab of our WP Admin.
 
-Inline-style:
-![click admin](/images/admin.png "click admin")
 Not certain what I'm referring to? Let's explore first:
 1. Go to Local by Flywheel where you created your site
 2. Make sure the site is started
 3. Click on the `ADMIN` button -OR- click on `VIEW SITE` and then type `/wp-admin` behind your `*.local` URL
+![Click Admin](/images/1-click-admin.png "Click Admin")
 4. Log in to your WP admin dashboard with the credentials you used when creating your site
 5. On the left hand menu, you'll see a section called `Appearance`, hover over this and click on `Themes`
+![Go to Themes](/images/2-themes.png "Go to Themes")
 6. You'll see several themes here, your current one says `Active`
 
 ## Adding a new theme
 
-You can feel free to try out different themes here by clicking oi
+You can feel free to try out different themes here by clicking on `Activate`. You probably won't see too much happen, but there is a lot to add to your pages with
+![Activate](/images/3-activate.png "Activate")
 So, now you've seen where your themes live in the WP files and in the WP Admin, let's manually add another theme:
 1. If you have a theme you like, download it now, or go to [Antreas](https://www.demos.machothemes.com/antreas/) or [download the theme here](/antreas-lite.zip)
 2. Unzip the theme contents, and copy the whole folder into your theme directory
+![Copy Theme](/images/4-copy-theme.png "Copy Theme")
 3. Go to your WP Admin theme page and click refresh - notice now you have the them `Antreas`
+4. Go ahead and activate this new theme
 
-If you navigate to your website, you'll notice that the theme has now changed. To show how quick and powerful WwordPress can be, go ahead and click W
+If you navigate to your website, you'll notice that the theme has now changed. The next step is **optional** and you don't want to do this on a site that has content on it already:
+1. Click on the theme and go to `About Antreas`
+![Antreas](/images/5-antreas.png "Antreas")
+2. Go to the tab titled `Recommended Actions`
+![About Antreas](/images/6-about-antreas.png "About Antreas")
+3. Click on `Import Content` - this will load in content and custom post types
+![Recommended](/images/7-recommened.png "Recommended")
+4. Now go back to your website and click refresh and check out the change!
+
+You can feel free to mess around with the theme if there is time. Otherwise, we will begin our migration to live process.
+
+## Migrating to Live
+
+
