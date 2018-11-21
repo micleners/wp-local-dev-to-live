@@ -35,11 +35,14 @@ Not certain what I'm referring to? Let's explore first:
 You can feel free to try out different themes here by clicking on `Activate`. You probably won't see too much happen, but there is a lot to add to your pages with
 <br><img src="/images/3-activate.png" title='Activate' alt='Activate' height="50%" width="50%"><br>
 So, now you've seen where your themes live in the WP files and in the WP Admin, let's manually add another theme:
-1. If you have a theme you like, download it now, or go to [Antreas](https://www.demos.machothemes.com/antreas/) or [download the theme here](/antreas-lite.zip)
-2. Unzip the theme contents, and copy the whole folder into your theme directory
-<img src="/images/4-copy-theme.png" title='Copy Theme' alt='Copy Theme' height="75%" width="75%">
-3. Go to your WP Admin theme page and click refresh - notice now you have the them `Antreas`
-4. Go ahead and activate this new theme
+
+<ol>
+  <li>If you have a theme you like, download it now, or go to [Antreas](https://www.demos.machothemes.com/antreas/) or [download the theme here](/antreas-lite.zip)</li>
+  <li>Unzip the theme contents, and copy the whole folder into your theme directory</li>
+  <img src="/images/4-copy-theme.png" title='Copy Theme' alt='Copy Theme' height="75%" width="75%"></li>
+  <li>Go to your WP Admin theme page and click refresh - notice now you have the them `Antreas`.</li>
+  <li>Go ahead and activate this new theme.</li>
+</ol>
 
 If you navigate to your website, you'll notice that the theme has now changed. The next step is **optional** and you don't want to do this on a site that has content on it already:
 1. Click on the theme and go to `About Antreas`
