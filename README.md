@@ -14,6 +14,9 @@ Again, if you have difficulty with Local by Flywheel, I suggest using [MAMP](htt
 
 ## Getting to know your site
 
+This info graphic contains the overall architecture and a preview of each component that builds up your WP Site:
+<img src="/images/0-wordpress-architecture.png" title='WP Architecture' alt='WP Architecture' height="100%" width="100%">
+
 The files for your site will, by default, be located in a folder called `Local Sites` in your home directory. Go ahead and find that now. The path to find your WP files will be: `Local Sites > Your Site Name > app > public`
 
 Within the `public` folder there will be `wp-admin`, `wp-includes`, and `wp-content`. It is this last folder that is most important for the purposes of this tutorial.
@@ -21,14 +24,31 @@ Within the `public` folder there will be `wp-admin`, `wp-includes`, and `wp-cont
 In the `wp-content` folder you'll find the `themes` folder. This contains all the themes that you'll find on the themes tab of our WP Admin.
 
 Not certain what I'm referring to? Let's explore first:
-1. Go to Local by Flywheel where you created your site
-2. Make sure the site is started
-3. Click on the `ADMIN` button -OR- click on `VIEW SITE` and then type `/wp-admin` behind your `*.local` URL
+<ol>
+  <li>Go to Local by Flywheel where you created your site
+  <li>Make sure the site is started
+  <li>Click on the `ADMIN` button -OR- click on `VIEW SITE` and then type `/wp-admin` behind your `*.local` URL
 <img src="/images/1-click-admin.png" title='Click Admin' alt='Click Admin' height="50%" width="50%">
-4. Log in to your WP admin dashboard with the credentials you used when creating your site
-5. On the left hand menu, you'll see a section called `Appearance`, hover over this and click on `Themes`
+  <li>Log in to your WP admin dashboard with the credentials you used when creating your site
+  <li>On the left hand menu, you'll see a section called `Appearance`, hover over this and click on `Themes`
 <img src="/images/2-themes.png" title='Go to Themes' alt='Go to Themes' height="50%" width="50%">
-6. You'll see several themes here, your current one says `Active`
+  <li>You'll see several themes here, your current one says `Active`
+</ol>
+
+## Checking out our Database
+
+If you are familiar with investigating databases, Local by Flywheel offers quick access to this.
+<ol>
+  <li>In Local by Flywheel again, click on the `DATABASE` tab</li>
+<img src="/images/8-database.png" title='Database Management' alt='Database Management' height="50%" width="50%">
+  <li>Click on the `ADMINER` button</li>
+<img src="/images/9-adminer" title='Adminer' alt='Adminer' height="50%" width="50%">
+  <li>Here you can see what content is kept in the database: Posts, Pages, Comments, Users, etc</li>
+<img src="/images/10-databases" title='Databases' alt='Databases' height="50%" width="50%">
+  <li>If you are familiar with SQL you can perform queries here</li>
+  <li>You can also import and export your database with this interface</li>
+  <li>Together the WP files (the folder that contains `wp-content`, `wp-includes` and `wp-admin`) and the database contain all the information in your WP site</li>
+</ol>
 
 ## Adding a new theme
 
@@ -45,15 +65,24 @@ So, now you've seen where your themes live in the WP files and in the WP Admin, 
 </ol>
 
 If you navigate to your website, you'll notice that the theme has now changed. The next step is **optional** and you don't want to do this on a site that has content on it already:
-1. Click on the theme and go to `About Antreas`
+<ol>
+  <li>Click on the theme and go to `About Antreas`
 <img src="/images/5-antreas.png" title='Antreas' alt='Antreas' height="50%" width="50%">
-2. Go to the tab titled `Recommended Actions`
+  <li>Go to the tab titled `Recommended Actions`
 <img src="/images/6-about-antreas.png" title='About Antreas' alt='About Antreas' height="50%" width="50%">
-3. Click on `Import Content` - this will load in content and custom post types
+  <li>Click on `Import Content` - this will load in content and custom post types
 <img src="/images/7-recommended.png" title='Recommended' alt='Recommended' height="50%" width="50%">
-4. Now go back to your website and click refresh and check out the change!
+  <li>Now go back to your website and click refresh and check out the change!
+</ol>
 
-You can feel free to mess around with the theme if there is time. Otherwise, we will begin our migration to live process.
+You can feel free to mess around with the theme if there is time. For now, we will take a short introduction to the database.
+
+
+https://wordpress.org/download/
+
+## Migrating to Live
+
+Otherwise, we will begin our migration to live process.
 
 ## Migrating to Live
 
