@@ -1,4 +1,4 @@
-# Part 1: Setting Up Local Development and Investigating WP Files and Databases
+# Part 1: Setting Up Local Dev + Exploring WP Files and Database
 
 ## Options for Local Dev: Local By Flywheel, MAMP and Docker, oh my!
 
@@ -39,6 +39,7 @@ You'll also find three folders in the parent directory: `wp-admin`, `wp-includes
   </ul>
 </ul>
 
+# Part 2: Investigating Local Site and Updating theme
 ## Checking out our Database
 
 As discussed, the `Database` contains all the content and settings for your website. I'll show you how to locate your DB in Local by Flywheel. If you are familiar with investigating databases feel free to poke around, but be careful! Many changes here are irreversible.
@@ -101,10 +102,27 @@ If you navigate to your website, you'll notice that the theme has now changed. T
 
 You can feel free to mess around with the theme if there is time. For now, we will take a short introduction to the database.
 
-## Migrating to Live
+# Part 3: Migrating to Live
 
-Otherwise, we will begin our migration to live process.
+While you can manually migrate your website by copying your files and exporting your DB - we will use a plugin to make this easier. In the tutorial I will be demonstrating using [Duplicator with this tutorial](https://premium.wpmudev.org/blog/guide-to-migrating-localhost-wordpress-to-live-site/), but the alternative is  [WP All-In-One-Migration](https://researchasahobby.com/migrate-big-website-new-domain-subdomain-free-testing-easiest-way/).
 
-## Migrating to Live
+If you have trouble downloading your duplicator files (or just want to see where the files got saved), navigate to the `public` folder we looked at earlier with `wp-content`, `wp-includes` and `wp-admin`. Within this folder you will find `wp-snapshots` - the two files you need from in here are `...archive.zip` and the `...installer.php`.
+<br>
+<img src="/ images/12-duplicator-files.png " title='Duplicator Files' alt='Duplicator Files' height="50%" width="50%">
+<br>
 
+Getting the above files onto your WP site is probably the most challenging part of this entire migration process. The following steps may help:
+<ol>
+  <li>Go to your hosting site > cPanel > File Manager -OR- FTP into your file system</li>
+  <li>Navigate to your `public_html` directory, where you may or may not already have WordPress installed</li>
+  <li>Create a new folder called `test-site` (name doesn't matter, but it can't have spaces!)</li>
+  <li>Upload both the installer and the .zip file in this directory</li>
+  <li>Navigate to the URL: `your-domain.com/test-site/installer.php`</li>
+  <li>Continue to follow the instructions</li>
+</ol>
 
+If you are struggling with getting the Duplicator files up to your website. You can try to use [WP All-In-One-Migration](https://researchasahobby.com/migrate-big-website-new-domain-subdomain-free-testing-easiest-way/).
+
+# Part 4: Best of Luck!
+
+This is where our tutorial ends. I hope that you found it useful!
