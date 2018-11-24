@@ -46,9 +46,9 @@ As discussed, the `Database` contains all the content and settings for your webs
   <li>In Local by Flywheel again, click on the `DATABASE` tab</li>
 <img src="/images/8-database.png" title='Database Management' alt='Database Management' height="50%" width="50%">
   <li>Click on the `ADMINER` button</li>
-<img src="/images/9-adminer" title='Adminer' alt='Adminer' height="50%" width="50%">
+<img src="/images/9-adminer.png" title='Adminer' alt='Adminer' height="50%" width="50%">
   <li>Here you can see what content is kept in the database: Posts, Pages, Comments, Users, etc</li>
-<img src="/images/10-databases" title='Databases' alt='Databases' height="50%" width="50%">
+<img src="/images/10-databases.png" title='Databases' alt='Databases' height="50%" width="50%">
   <li>If you are familiar with SQL you can perform queries here</li>
   <li>You can also import and export your database with this interface</li>
   <li>Together the WP files (the folder that contains `wp-content`, `wp-includes` and `wp-admin`) and the database contain all the information in your WP site</li>
@@ -83,26 +83,23 @@ So, now you've seen where your themes live in the WP files and in the WP Admin, 
 <ol>
   <li>If you have a theme you like, download it now, or go to [Antreas](https://www.demos.machothemes.com/antreas/) or [download the theme here](/antreas-lite.zip)</li>
   <li>Unzip the theme contents, and copy the whole folder into your theme directory</li>
-  <img src="/images/4-copy-theme.png" title='Copy Theme' alt='Copy Theme' height="75%" width="75%"></li>
+<img src="/images/4-copy-theme.png" title='Copy Theme' alt='Copy Theme' height="75%" width="75%"></li>
   <li>Go to your WP Admin theme page and click refresh - notice now you have the them `Antreas`.</li>
   <li>Go ahead and activate this new theme.</li>
 </ol>
 
 If you navigate to your website, you'll notice that the theme has now changed. The next step is **optional** and you don't want to do this on a site that has content on it already:
 <ol>
-  <li>Click on the theme and go to `About Antreas`
+  <li>Click on the theme and go to `About Antreas`</li>
 <img src="/images/5-antreas.png" title='Antreas' alt='Antreas' height="50%" width="50%">
-  <li>Go to the tab titled `Recommended Actions`
+  <li>Go to the tab titled `Recommended Actions`</li>
 <img src="/images/6-about-antreas.png" title='About Antreas' alt='About Antreas' height="50%" width="50%">
-  <li>Click on `Import Content` - this will load in content and custom post types
+  <li>Click on `Import Content` - this will load in content and custom post types</li>
 <img src="/images/7-recommended.png" title='Recommended' alt='Recommended' height="50%" width="50%">
-  <li>Now go back to your website and click refresh and check out the change!
+  <li>Now go back to your website and click refresh and check out the change!</li>
 </ol>
 
 You can feel free to mess around with the theme if there is time. For now, we will take a short introduction to the database.
-
-
-https://wordpress.org/download/
 
 ## Migrating to Live
 
