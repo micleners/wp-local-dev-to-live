@@ -79,10 +79,10 @@ Not certain what I'm referring to? Let's explore first:
 
 You can feel free to try out different themes here by clicking on `Activate`. You probably won't see too much happen, but there is a lot to add to your pages with
 <br><img src="/images/3-activate.png" title='Activate' alt='Activate' height="50%" width="50%"><br>
-So, now you've seen where your themes live in the WP files and in the WP Admin, let's manually add another theme:
+So, now you've seen where your themes live in the WP files and in the WP Admin, let's manually add another theme. Either brows around on the internet, or use theme provided here:
 
 <ol>
-  <li>If you have a theme you like, download it now, or go to [Antreas](https://www.demos.machothemes.com/antreas/) or [download the theme here](/antreas-lite.zip)</li>
+  <li>If you have a theme you like, download it now, or go to <a href="https://www.demos.machothemes.com/antreas/">Antreas</a> or <a href="/antreas-lite.zip">download the theme here</a></li>
   <li>Unzip the theme contents, and copy the whole folder into your theme directory</li>
 <img src="/images/4-copy-theme.png" title='Copy Theme' alt='Copy Theme' height="75%" width="75%"></li>
   <li>Go to your WP Admin theme page and click refresh - notice now you have the them `Antreas`.</li>
@@ -108,7 +108,7 @@ While you can manually migrate your website by copying your files and exporting 
 
 If you have trouble downloading your duplicator files (or just want to see where the files got saved), navigate to the `public` folder we looked at earlier with `wp-content`, `wp-includes` and `wp-admin`. Within this folder you will find `wp-snapshots` - the two files you need from in here are `...archive.zip` and the `...installer.php`.
 <br>
-<img src="/ images/12-duplicator-files.png " title='Duplicator Files' alt='Duplicator Files' height="50%" width="50%">
+<img src="/images/12-duplicator-files.png " title='Duplicator Files' alt='Duplicator Files' height="50%" width="50%">
 <br>
 
 Getting the above files onto your WP site is probably the most challenging part of this entire migration process. The following steps may help:
