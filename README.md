@@ -1,16 +1,18 @@
-# Part 1: Setting Up Local Dev + Exploring WP Files and Database
+Welcome to my tutorial on setting up local development and migrating to live. This was written for our local [Des Moines WordPress Meetup](https://www.meetup.com/wordpressdsm/). If you are in the area come check us out! This was written late 2018, so if the instructions have gotten out of date, but you find it useful, feel free to submit a PR.
+
+# Part 1: Setting Up Local Dev
 
 ## Options for Local Dev: Local By Flywheel, MAMP and Docker, oh my!
 
 The easiest way I've found to start local development is through Local by Flywheel. The software is provided by Flywheel, a managed WP host, but no purchase is required.
+### I will be demonstrating with Local by Flywheel: Please follow these [instructions for installation](https://getflywheel.com/layout/local-wordpress-development-environment-how-to/).
 
 The most popular historical method has been using a suite called MAMP for Mac, or WAMP or LAMP, for Windows and Linus respectively. I recommend this as a fallback if Local by Flywheel does not successfully load on your computer.
+#### If you have difficulty with Local by Flywheel, I suggest using [MAMP](https://skillcrush.com/2015/04/14/install-wordpress-mac/) or [WAMP](https://www.wpbeginner.com/wp-tutorials/how-to-install-wordpress-on-your-windows-computer-using-wamp/).
 
 There are other methods of local development out there - including using Docker. Feel free to experiment with these if you'd like - but for this tutorial:
 
-### I will be demonstrating with Local by Flywheel: Please follow these [instructions for instructions](https://getflywheel.com/layout/local-wordpress-development-environment-how-to/).
-
-Again, if you have difficulty with Local by Flywheel, I suggest using [MAMP](https://skillcrush.com/2015/04/14/install-wordpress-mac/) or [WAMP](https://www.wpbeginner.com/wp-tutorials/how-to-install-wordpress-on-your-windows-computer-using-wamp/).
+# Part 2: Exploring WP Files and Database
 
 ## WordPress Architecture
 
@@ -39,7 +41,6 @@ You'll also find three folders in the parent directory: `wp-admin`, `wp-includes
   </ul>
 </ul>
 
-# Part 2: Investigating Local Site and Updating theme
 ## Checking out our Database
 
 As discussed, the `Database` contains all the content and settings for your website. I'll show you how to locate your DB in Local by Flywheel. If you are familiar with investigating databases feel free to poke around, but be careful! Many changes here are irreversible.
@@ -63,7 +64,9 @@ Within the `public` folder there will be `wp-admin`, `wp-includes`, and `wp-cont
 
 In the `wp-content` folder you'll find the `themes` folder. This contains all the themes that you'll find on the themes tab of our WP Admin.
 
-Not certain what I'm referring to? Let's explore first:
+# Part 3: Investigating Local Site and Updating theme
+
+Let's check out our local site from the `Admin Dashboard`:
 <ol>
   <li>Go to Local by Flywheel where you created your site
   <li>Make sure the site is started
@@ -102,7 +105,7 @@ If you navigate to your website, you'll notice that the theme has now changed. T
 
 You can feel free to mess around with the theme if there is time. For now, we will take a short introduction to the database.
 
-# Part 3: Migrating to Live
+# Part 4: Migrating to Live
 
 While you can manually migrate your website by copying your files and exporting your DB - we will use a plugin to make this easier. In the tutorial I will be demonstrating using [Duplicator with this tutorial](https://premium.wpmudev.org/blog/guide-to-migrating-localhost-wordpress-to-live-site/), but the alternative is  [WP All-In-One-Migration](https://researchasahobby.com/migrate-big-website-new-domain-subdomain-free-testing-easiest-way/).
 
@@ -123,6 +126,6 @@ Getting the above files onto your WP site is probably the most challenging part 
 
 If you are struggling with getting the Duplicator files up to your website. You can try to use [WP All-In-One-Migration](https://researchasahobby.com/migrate-big-website-new-domain-subdomain-free-testing-easiest-way/).
 
-# Part 4: Best of Luck!
+# Closing: Best of Luck!
 
-This is where our tutorial ends. I hope that you found it useful!
+This is where our tutorial ends. I hope that you learned something useful! If you have questions or suggestion on this tutorial, my email is mb.johnsonbece@gmail.com and please come checkout our local [Des Moines WordPress Meetup](https://www.meetup.com/wordpressdsm/)!
