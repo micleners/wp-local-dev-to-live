@@ -1,5 +1,7 @@
 Welcome to my tutorial on setting up local development and migrating your site to live. This was written for our local [Des Moines WordPress Meetup](https://www.meetup.com/wordpressdsm/). If you are in the area, come check us out! This was written late 2018, so if the instructions have gotten out of date, feel free to submit a PR.
 
+For those attending the tutorial, please <strong>complete Part 1 before arriving</strong> to help us get through all the content. If you plan to obtain hosting before attending (not required!), Flywheel is a solid Managed Hosting option ([Free 14-day Trial](https://getflywheel.com/why-flywheel/free-wordpress-sites/), I will be using [SiteGround](https://www.siteground.com/) for my demonstration, and BlueHost is probably the most economic recommendation.
+
 # Part 1: Setting Up Local Dev
 
 ## Options for Local Dev: Local By Flywheel, MAMP and Docker, oh my!
@@ -82,7 +84,7 @@ Let's check out our local site from the `Admin Dashboard`:
 
 You can feel free to try out different themes here by clicking on `Activate`. You probably won't see too much happen, but there is a lot to add to your pages with
 <br><img src="/images/3-activate.png" title='Activate' alt='Activate' height="50%" width="50%"><br>
-So, now you've seen where your themes live in the WP files and in the WP Admin, let's manually add another theme. Either brows around on the internet, or use theme provided here:
+So, now you've seen where your themes live in the WP files and in the WP Admin, let's manually add another theme. Either browse around on the internet, or use theme provided here:
 
 <ol>
   <li>If you have a theme you like, download it now, or go to <a href="https://www.demos.machothemes.com/antreas/">Antreas</a> or <a href="/antreas-lite.zip">download the theme here</a></li>
